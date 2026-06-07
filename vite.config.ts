@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   // GitHub Pages deployment requires the repository name in the base path
-  const base = mode === 'production' ? '/James-Lewis/' : '/';
+  const base = mode === 'production' ? '/Lujan-landscaping/' : '/';
 
   return {
     base,
